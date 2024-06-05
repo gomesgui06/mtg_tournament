@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "torneio-magic-pauper",
+  "private_key_id": "0f7744989ed195c8e6533077c203c0ec8f0a5b36",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDa4qMOOFlT5c7w\nUIBTsqhnCiKDp7S/WSqk7GX7hc4dY+c6tzT/G0PWThXjzQStyOIDF6k6edb41KPJ\n1JARZaPt2ds0nU2r+jZcRbXhtMgNSb+90ywsUlE1m9GKAaJA4SBEPZ0N6Ug/0OEI\n077Kgcdmae89uOlTAKnePGCiwvJUNzPYyix8Z0dXlroKCRcyZX8FxWFWI9PwQa1v\nBr5reChb3C7LG0LineeuNdnsHxSfojg29XfCRDvDWUlMG0jOS1EWp6By1j69EZkp\nyZkOCRbUm8GDUnVOimK10G76y7O4DGUMkSJk9aZuIutB8LxBCP7JJI9qYKy2JGTW\nHjOHEsFnAgMBAAECggEADHOcbf3ToGZa1X3m3Ea2C200AG76ZRuSmvYzE6dizcuL\nRwz5WqfM6J824edy+YXgzDySLRhARpXQyXWqSmsQnm0TFL+mwFPyuAtj04wACLgm\nIbYmdaZV0Km6tlHtzn4KuAcUl6AqiC1+7Qx1S+TXwzeJ22YuU8FJEzI2bHE67YJp\neUwYfZvZNTacOvv8jVZa36atdTfQajMhe7iny9JvUOcGibitqiOZCbeqiVN47QWH\nWaOSNI4iiU394zERio6BuI3DPjkd+ad02qnRNgK71I+HufbplV3G1tsifKq5t3x9\nQ5aIiEj6q4GJDz3e8iNVS9uXrhfaXmeurzn8wJ4d4QKBgQDyPwvMduFpgdfwvLAN\nEr0+Vv2B/PCp6+9TGTKxN6/l3mPmmaJ2vXV7YI6xG9i3NUa8ZxcoGI8OHYRJ9ipj\nBOdQPEl9iij3cwNpOHW6kkKJCn6spMiNo2oodMWRTgWdxb4f5aptZYz3Air9WeBt\n4gPRzFf4hkqNr+A6Qo77HQlQRwKBgQDnUAxfMepWkbiB2SNIW+gwhdcwZLqE/M+f\nTEkdgCtWAKgT9Jh7v8+i+XoND7jZUxIz05rMw7hsF7aiNh376VzvPGPlOXj5sGJz\nr3QJV9r7StO27xbW7dVg4Zv6+YoruN0RVnpjjIGaUbw4JnahEV+l9vVuki0vLX6D\n5RPfvFe14QKBgQDEInOlGmOrjyuNiNhp3VBH1xruUiNxEMv21iILBnFuhj8QiDfY\nN9GVETq2/zraK1KYXEeNeUTqQs/HKn5rKZ83gXhnIqPEpeSPHt2DL8SbPFoP4mNW\n+oaLNvB3k1pMwbwMC2GPrXcSzziLZGen0CUTioV3fROD4HCF+znU60+NJQKBgQCI\nygnG8dnGv/4Aq8v1qoQwzbVn5Ol4Y5jUd2R1kaoO/exngKn75H6Bvk6zEq0Zt8p3\n45cTqFqTcaKLYr1wj5xpzai1kbs8zVYrW4KfU9kn6iQxdkpnZ9ZbqI95Z8CSAoyZ\nCC7wV9L804EfI3/b2E5b8yNI9CDMWXcLwJh0IwkrgQKBgCQOGpTyKM9IKydc0GxI\nJCN52kaKgkqoQ8TOq2LmwdysdTFdryQV3stX5pELSSYWErvJWKTZEBBKa3Gxzh04\nPeUI+acCLQV99OqP1xapAZHSzamtIqvCK1rYsdP2jdAN/stTn04gYmSDKAHr/auY\n3QyBIwlbonW4Et5UWmi0RB10\n-----END PRIVATE KEY-----\n",
+  "client_email": "extrator-torneio-pauper@torneio-magic-pauper.iam.gserviceaccount.com",
+  "client_id": "115705080212955255585",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/extrator-torneio-pauper%40torneio-magic-pauper.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
