@@ -151,6 +151,15 @@ class PDFExtractor:
         return new_date_str
 
     @staticmethod
+    def format_date_normal(path):
+        extractor = PDFExtractor(path)
+        date = extractor.extract_date()
+        date_obj = datetime.strptime(date, "%d/%m/%Y")
+        new_date_str = date_obj.strftime("%d/%m/%Y")
+        return str(new_date_str)
+
+
+    @staticmethod
     def write_dataframe_google_sheets(path, spreadsheet_id, worksheet_id, df):
         scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
         creds = ServiceAccountCredentials.from_json_keyfile_name(f'{path}/torneio-magic-pauper-0f7744989ed1.json', scope)
@@ -163,6 +172,19 @@ class PDFExtractor:
         new_df = pd.concat([existing, df])
         set_with_dataframe(worksheet, new_df)
         print("DataFrame written to Google Sheet successfully.")
+    
+    @staticmethod
+    def get_dataframe_google_sheets(path, spreadsheet_id, worksheet_id):
+        scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+        creds = ServiceAccountCredentials.from_json_keyfile_name(f'{path}/torneio-magic-pauper-0f7744989ed1.json', scope)
+        client = gspread.authorize(creds)
+        spreadsheet = client.open_by_key(spreadsheet_id)
+        worksheet = spreadsheet.get_worksheet_by_id(worksheet_id)
+
+        existing = get_as_dataframe(worksheet)
+        existing = existing.dropna(how='all')
+        return existing
+
 
     @staticmethod
     def determinar_resultado(row):
